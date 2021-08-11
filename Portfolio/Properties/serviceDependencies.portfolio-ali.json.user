@@ -1,13 +1,33 @@
 {
   "dependencies": {
     "mssql1": {
-      "restored": true,
-      "restoreTime": "2021-08-11T00:31:25.4778572Z"
+      "restored": false,
+      "restoreTime": "2021-08-11T00:49:05.3226256Z"
     }
   },
   "parameters": {
+    "portfolio-ali.resourceGroupName": {
+      "Name": "portfolio-ali.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "WebApp"
+    },
+    "portfolio-ali.resourceGroupLocation": {
+      "Name": "portfolio-ali.resourceGroupLocation",
+      "Type": null,
+      "Value": "westeurope"
+    },
+    "mssql1.resourceGroupLocation": {
+      "Name": "mssql1.resourceGroupLocation",
+      "Type": "location",
+      "Value": "westeurope"
+    },
     "mssql1.subscriptionId": {
       "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "86f10de6-4202-4ffc-bf7f-20daf1b2d925"
+    },
+    "portfolio-ali.subscriptionId": {
+      "Name": "portfolio-ali.subscriptionId",
       "Type": "subscription",
       "Value": "86f10de6-4202-4ffc-bf7f-20daf1b2d925"
     },
@@ -15,6 +35,16 @@
       "Name": "mssql1.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "WebApp"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "86f10de6-4202-4ffc-bf7f-20daf1b2d925"
+    },
+    "portfolio-ali.resourceName": {
+      "Name": "portfolio-ali.resourceName",
+      "Type": null,
+      "Value": "portfolio-ali"
     }
   }
 }

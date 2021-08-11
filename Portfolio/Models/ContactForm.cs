@@ -17,6 +17,5 @@ namespace Portfolio.Models
         [Required, MinLength(10)]
         public string Message { get; set; }
 
-        public bool? WillAttend { get; set; }
     }
 }
