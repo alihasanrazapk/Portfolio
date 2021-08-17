@@ -3,17 +3,74 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+
+    <!-- Page Title -->
     <title>@ViewBag.Title</title>
+    <!-- Site Icon -->
+    <link rel="title icon" type="image/png" href="images/title-img.png" />
+    <!-- Bootstrap CSS -->
     <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--    fontawesome-->
+    <link href="~/font-awesome/css/all.css" rel="stylesheet" />
+    <!-- Site CSS -->
     <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
+    <!-- navbar -->
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+
+            <a asp-controller="Home" asp-action="Index" class="navbar-brand mx-3"><i class="fab fa-asymmetrik fa-2x text-warning"></i></a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#project-skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" asp-action="ShowAll" asp-controller="Home">Show All</a></li>
+                    <partial name="_LoginPartial" />
+                </ul>
+
+
+            </div>
+
+        </nav>
+    
+    <!-- end of navbar -->
+
+
+
     <div>
         @RenderBody()
     </div>
+
+    <!-- footer -->
+    <footer class="bg-secondary footer">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-white font-weight-light text-capitalize p-3">Portfolio project for completed projects</h1>
+                    <h3 class="text-light font-weight-light font-italic mb-3">Another test with Git commit.</h3>
+                    <div class="py-2">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+                        <a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus fa-2x text-danger mx-3"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
+                        <a  href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube fa-2x text-danger mx-3"></i></a>
+                    </div>
+                    <p class="text-light py-4 m-0">&copy;Copyright 2021 - Made by Ali Hasan Raza</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
     <script src="~/lib/jquery/jquery.js"></script>
     <script src="~/lib/bootstrap/js/bootstrap.js"></script>
     <script src="~/js/site.js"></script>
-    @RenderSection("Scripts", required:false);
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

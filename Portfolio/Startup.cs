@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,6 +27,16 @@ namespace Portfolio
         {
             services.AddDbContext<ApplicationDbContext>(options=> 
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
+            services.Configure<IdentityOptions>(opt =>
+            {
+                opt.Password.RequireDigit = true;
+                opt.Password.RequiredLength = 8;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.User.RequireUniqueEmail = true;
+
+
+            });
             services.AddControllersWithViews();
             services.AddRazorPages().AddRazorRuntimeCompilation();
 
@@ -46,6 +57,8 @@ namespace Portfolio
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseAuthentication(); // To apply identity
+            app.UseAuthorization(); // to apply authorization on control level
 
             app.UseEndpoints(endpoints =>
             {
