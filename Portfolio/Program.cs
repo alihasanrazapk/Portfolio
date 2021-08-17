@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace Portfolio
 {
+    /// <summary>
+    /// Startup file that configure webserver.
+    /// </summary>
     public class Program
     {
         public static void Main(string[] args)

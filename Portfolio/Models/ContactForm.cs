@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Portfolio.Models
 {
+    /// <summary>
+    /// Class for contact form data
+    /// </summary>
     public class ContactForm
     {
         [Key]
