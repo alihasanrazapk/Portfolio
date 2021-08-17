@@ -367,10 +367,6 @@ C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Portfolio.Tag
 C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Portfolio.TagHelpers.output.cache
 C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Portfolio.RazorCoreGenerate.cache
 C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Pages\Error.cshtml.g.cs
-C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Views\Home\Results.cshtml.g.cs
 C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -439,3 +435,12 @@ C:\Users\aliha\source\repos\Portfolio\Portfolio\bin\Release\net5.0\Portfolio.Sta
 C:\Users\aliha\source\repos\Portfolio\Portfolio\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 C:\Users\aliha\source\repos\Portfolio\Portfolio\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\aliha\source\repos\Portfolio\Portfolio\bin\Release\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
