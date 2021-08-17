@@ -38,5 +38,12 @@ namespace Portfolio.Controllers
         {
             return View();
         }
+      
+        IEnumerable<ContactForm> ShowList { get; set; }
+        public  IActionResult ShowAll()
+        {
+             ShowList = db.Contacts.ToList();
+            return View(ShowList);
+        }
     }
 }
