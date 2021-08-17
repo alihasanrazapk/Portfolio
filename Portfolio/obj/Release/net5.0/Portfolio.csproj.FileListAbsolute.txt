@@ -443,4 +443,5 @@ C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\I
 C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
-C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\aliha\source\repos\Portfolio\Portfolio\obj\Release\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
